@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sunil V</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <section id="contact">
+        <p class="section__text__p1"></p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:21ad051@kpriet.ac.in">21ad051@kpriet.ac.in</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+        <div class="contact-info-upper-container2">
+          <form id="invitationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="experience">Coding Experience:</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea><br><br>
+    
+            <label for="skills">Additional Skills:</label>
+            <input type="text" id="skills" name="skills"><br><br>
+    
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">I agree to adhere to the community's code of conduct.</label><br><br>
+    
+            <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')">Submit</button> 
+        </form>
+          
+        </div>
+        
+      </section>
+      <br><br><br>
+      <footer>
+        <p>Copyright &#169; 2023 Sunil V. All Rights Reserved.</p>
+      </footer>
+      
+     
